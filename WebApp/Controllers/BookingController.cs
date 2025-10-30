@@ -64,13 +64,14 @@ namespace ExploreCalifornia.WebApp.Controllers
         private async Task SendMessage(IDictionary<string, object> headers, string message)
         {
             var factory = new ConnectionFactory();
-            factory.Uri = new Uri("amqp://guest:guest@localhost:5672");
+            factory.Uri = new Uri("amqp://webapp:webapp@localhost:5672");
             var connection = await factory.CreateConnectionAsync();
             var channel = await connection.CreateChannelAsync();
 
             var bytes = Encoding.UTF8.GetBytes(message);
             var props = new BasicProperties();
             props.Headers = headers;
+            props.UserId = "webapp";
             await channel.BasicPublishAsync("webappExchange", "", false, props, bytes);
 
             await channel.CloseAsync();
