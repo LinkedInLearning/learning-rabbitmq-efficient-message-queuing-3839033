@@ -5,6 +5,9 @@ This is the repository for the LinkedIn Learning course `Learning RabbitMQ: Effi
 
 ## Course Description
 
+<p>RabbitMQ is one of the most popular open-source message brokers in use today. This lightweight software can help companies that have adopted a microservices model stitch together and enable communication between their services. In this hands-on course, join instructor Peter Morlion as he demonstrates how developers can properly install and work with RabbitMQ to create messaging applications.</p>
+<p>After delving into the fundamental concepts behind message-based systems and the AMQP message protocol, Peter explains how to implement RabbitMQ as he steps through a sample application. He covers both basic usage, such as how to publish to and consume from a RabbitMQ exchange, as well as more advanced topics like setting up and using authentication in RabbitMQ. Whether you are configuring a new RabbitMQ instance or integrating it into existing systems, this course can equip you with the skills to build robust solutions for your enterprise applications.</p>
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -24,25 +27,19 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
-
 ## Instructor
 
-Instructor name
+Peter Morlion
 
-Instructor description
+Software Developer with 10+ years of experience
 
                             
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/peter-morlion?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-course-url]: https://www.linkedin.com/learning/learning-rabbitmq-efficient-message-queuing
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQE2zKwCjGQJFg/learning-public-crop_675_1200/B4DZqUdGsLJMAY-/0/1763427249693?e=2147483647&v=beta&t=3xDq9pDCdG2b537fYAwQe-icVHXaRiaTTgjrCzPAylE
 
