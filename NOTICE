@@ -5,7 +5,11 @@ Licensed under the LinkedIn Learning Exercise File License (the "License").
 See LICENSE in the project root for license information.
 
 ATTRIBUTIONS:
-[PLEASE PROVIDE ATTRIBUTIONS OR DELETE THIS AND THE ABOVE LINE “ATTRIBUTIONS”]
+
+RabbitMQ.Client
+https://github.com/rabbitmq/rabbitmq-dotnet-client
+License: Apache 2.0
+http://www.apache.org/licenses/
 
 Please note, this project may automatically load third party code from external 
 repositories (for example, NPM modules, Composer packages, or other dependencies). 
@@ -13,3 +17,18 @@ If so, such third party code may be subject to other license terms than as set
 forth above. In addition, such third party code may also depend on and load 
 multiple tiers of dependencies. Please review the applicable licenses of the 
 additional dependencies.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+This package, the RabbitMQ .NET client library, is dual-licensed under
+the Apache License v2 and the Mozilla Public License v2.0.
+
+For the Apache License, please see the file LICENSE-APACHE2.
+
+For the Mozilla Public License, please see the file LICENSE-MPL-RabbitMQ.
+
+For attribution of copyright and other details of provenance, please
+refer to the source code.
+
+If you have any questions regarding licensing, please contact us at 
+info@rabbitmq.com.
